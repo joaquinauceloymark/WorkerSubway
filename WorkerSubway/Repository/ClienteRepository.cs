@@ -14,7 +14,6 @@ namespace WorkerSubwayPruebas.Repository
         {
             _db = db;
         }
-
         public ICollection<cli_clientes> GetClientes()
         {
             return _db.cli_clientes
@@ -31,6 +30,7 @@ namespace WorkerSubwayPruebas.Repository
                     CLI_FAX = c.CLI_FAX ?? string.Empty,
                     CLI_EMAIL = c.CLI_EMAIL ?? string.Empty,
                     CLI_CODIGOPOSTAL = c.CLI_CODIGOPOSTAL ?? string.Empty,
+                    CLI_PUNTOSDISPONIBLES = c.CLI_PUNTOSDISPONIBLES,
                     CREATEUSERID = c.CREATEUSERID ?? string.Empty
                 })
                 .Take(100)
@@ -40,33 +40,18 @@ namespace WorkerSubwayPruebas.Repository
         public string GetUltimoCliente()
         {
             var cia = string.Empty;
-            try
-            {
-                cia = _db.Clientes
-                 .OrderByDescending(c => c.Cia)
-                 .Select(c => c.Cia)
-                 .FirstOrDefault();
-            }
-            catch (Exception ex)
-            {
 
-                throw;
-            }
+            cia = _db.Clientes
+             .OrderByDescending(c => c.Cia)
+             .Select(c => c.Cia)
+             .FirstOrDefault();
             return cia;
         }
 
         public bool InsertCisCliente(clientes cliente)
         {
-            try
-            {
-                _db.Clientes.Add(cliente);
-                return _db.SaveChanges() > 0 ? true : false;
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
+            _db.Clientes.Add(cliente);
+            return _db.SaveChanges() > 0 ? true : false;
         }
 
         public void UpdateCliProcesado(cli_clientes cliente)
@@ -75,9 +60,20 @@ namespace WorkerSubwayPruebas.Repository
             if (existingCliente != null)
             {
                 existingCliente.CLI_PROCESADO = cliente.CLI_PROCESADO;
-
                 _db.SaveChanges();
             }
+        }
+
+        public clientes GetCisClienteByCedula(string Cedula)
+        {
+            return _db.Clientes.Where(x => x.Cedula == Cedula).FirstOrDefault();
+        }
+
+        public void UpdateSaldoCisCliente(string cedula, decimal PuntosAsignar)
+        {
+            var existingClienteCis = _db.Clientes.FirstOrDefault(c => c.Cedula == cedula);
+            existingClienteCis.Saldo = float.Parse(PuntosAsignar.ToString());
+            _db.SaveChanges();
         }
     }
 }

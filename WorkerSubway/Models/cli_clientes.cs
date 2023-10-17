@@ -16,7 +16,9 @@ namespace WorkerSubwayPruebas.Models
         public string? CLI_FAX { get; set; }
         public string? CLI_EMAIL { get; set; }
         public string? CLI_CODIGOPOSTAL { get; set; }
+        public decimal CLI_PUNTOSDISPONIBLES { get; set; }
         public string? CREATEUSERID { get; set; }
+
         public DateTime CREATEDATE { get; set; }
     }
 
