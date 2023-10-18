@@ -17,7 +17,7 @@ namespace WorkerSubwayPruebas.Repository
         public ICollection<cli_clientes> GetClientes()
         {
             return _db.cli_clientes
-                .Where(c => c.CLI_CEDULA == "114770929")
+                .Where(c => c.CLI_CEDULA == "114770929" && c.CLI_PROCESADO == "S")
                 .Select(c => new cli_clientes
                 {
                     CLI_IDENTIFICACION = c.CLI_IDENTIFICACION,
