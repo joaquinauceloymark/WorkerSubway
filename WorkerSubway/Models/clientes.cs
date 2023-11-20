@@ -4,10 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WorkerSubwayPruebas.Models
 {
-    [Table("clientes", Schema = "cis")]
+    //[Table("clientes", Schema = "cis")]
     public class clientes
     {
-        [Key]
         public string Cia { get; set; }   
         public string Codigo { get; set; }
 

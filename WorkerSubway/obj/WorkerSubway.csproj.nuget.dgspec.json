@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Loymark\\Subway\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj": {}
+    "C:\\Loymark\\Subway_replicate\\Worker\\Worker\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj": {}
   },
   "projects": {
-    "C:\\Loymark\\Subway\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj": {
+    "C:\\Loymark\\Subway_replicate\\Worker\\Worker\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Loymark\\Subway\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj",
+        "projectUniqueName": "C:\\Loymark\\Subway_replicate\\Worker\\Worker\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj",
         "projectName": "WorkerSubway",
-        "projectPath": "C:\\Loymark\\Subway\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj",
+        "projectPath": "C:\\Loymark\\Subway_replicate\\Worker\\Worker\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj",
         "packagesPath": "C:\\Users\\Joaquin\\.nuget\\packages\\",
-        "outputPath": "C:\\Loymark\\Subway\\WorkerSubway\\WorkerSubway\\obj\\",
+        "outputPath": "C:\\Loymark\\Subway_replicate\\Worker\\Worker\\WorkerSubway\\WorkerSubway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joaquin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,6 +55,18 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.WindowsServices": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

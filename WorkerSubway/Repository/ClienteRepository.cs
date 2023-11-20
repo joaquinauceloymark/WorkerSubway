@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using WorkerSubwayPruebas.Data;
 using WorkerSubwayPruebas.Models;
@@ -66,14 +67,26 @@ namespace WorkerSubwayPruebas.Repository
 
         public clientes GetCisClienteByCedula(string Cedula)
         {
-            return _db.Clientes.Where(x => x.Cedula == Cedula).FirstOrDefault();
+            return _db.Clientes.Where(x => x.Codigo == Cedula).FirstOrDefault();
         }
 
         public void UpdateSaldoCisCliente(string cedula, decimal PuntosAsignar)
         {
-            var existingClienteCis = _db.Clientes.FirstOrDefault(c => c.Cedula == cedula);
-            existingClienteCis.Saldo = float.Parse(PuntosAsignar.ToString());
-            _db.SaveChanges();
+            try
+            {
+                var parametros = new SqlParameter[]
+                {
+                    new SqlParameter("@Cedula", cedula),
+                    new SqlParameter("@PuntosAsignar", (float)PuntosAsignar)
+                };
+
+                _db.Database.ExecuteSqlRaw("EXEC sp_actualizarPuntosAsignar @Cedula, @PuntosAsignar", parametros);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
     }
 }

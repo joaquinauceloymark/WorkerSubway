@@ -4,17 +4,29 @@ using WorkerSubwayPruebas.Repository;
 using Microsoft.EntityFrameworkCore;
 using WorkerSubwayPruebas.Data;
 
-var host = Host.CreateDefaultBuilder(args)
-    .ConfigureServices((hostContext, services) =>
-    {
-        services.AddDbContext<ApplicationDbContext>(options =>
+try
+{
+    var host = Host.CreateDefaultBuilder(args)
+        .UseWindowsService(options =>
+        {
+            options.ServiceName = "Worker Subway Clientes";
+        })
+        .ConfigureServices((hostContext, services) =>
+        {
+            services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(hostContext.Configuration.GetConnectionString("DefaultConnection")));
 
-        // Registrar repositorios y otros servicios
-        services.AddScoped<IClienteRepository, ClienteRepository>();
-
-        services.AddHostedService<Worker>();
-    })
+            services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddHostedService<Worker>();
+            services.AddHttpClient();
+        })
     .Build();
 
-await host.RunAsync();
+    await host.RunAsync();
+}
+catch (Exception)
+{
+
+    throw;
+}
+
