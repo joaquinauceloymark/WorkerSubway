@@ -1,0 +1,42 @@
+﻿FECHA: 11/20/2023 5:44 PMIniciando Proceso cada 5 minutos
+FECHA: 11/20/2023 5:44 PMIniciando Proceso cada 5 minutos
+FECHA: 11/20/2023 5:44 PMLlamado de API exitoso
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:44 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:45 PMCliente insertado
+FECHA: 11/20/2023 5:46 PM - Iniciando Proceso cada 5 minutos
+FECHA: 11/20/2023 5:46 PM - Llamado de API exitoso
+FECHA: 11/20/2023 5:51 PM - Iniciando Proceso cada 5 minutos
+FECHA: 11/20/2023 5:51 PM - Llamado de API exitoso
+FECHA: 11/20/2023 5:51 PM - Cliente insertado
+FECHA: 11/20/2023 6:00 PM - Iniciando Proceso cada 5 minutos
+FECHA: 11/20/2023 6:01 PM - Iniciando Proceso cada 5 minutos
+FECHA: 11/20/2023 6:50 PM - Iniciando Proceso cada 5 minutos
+FECHA: 11/20/2023 6:53 PM - Iniciando Proceso cada 5 minutos
+FECHA: 11/20/2023 7:08 PM - Iniciando Proceso cada 5 minutos

@@ -266,3 +266,5 @@ C:\Loymark\Subway_replicate\Worker\Worker\WorkerSubway\WorkerSubway\obj\Debug\ne
 C:\Loymark\Subway_replicate\Worker\Worker\WorkerSubway\WorkerSubway\obj\Debug\net6.0\WorkerSubway.pdb
 C:\Loymark\Subway_replicate\Worker\Worker\WorkerSubway\WorkerSubway\obj\Debug\net6.0\WorkerSubway.genruntimeconfig.cache
 C:\Loymark\Subway_replicate\Worker\Worker\WorkerSubway\WorkerSubway\obj\Debug\net6.0\ref\WorkerSubway.dll
+C:\Loymark\Subway_replicate\Worker\Worker\WorkerSubway\WorkerSubway\bin\Debug\net6.0\Serilog.dll
+C:\Loymark\Subway_replicate\Worker\Worker\WorkerSubway\WorkerSubway\bin\Debug\net6.0\Serilog.Sinks.File.dll

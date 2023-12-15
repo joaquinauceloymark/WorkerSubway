@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bwvO4V+dLPQLTI1eY8OsPhajWvFqRr1uR68f8i/CIcEIYaRENMIN7smdGLgMwJlmeMWh1YJ0M9+30jxpF78Kvw==",
+  "dgSpecHash": "E47JDNvT6raxp4+SZQ0y2KEcm/8vfXtgTxOBt1TOg6GJWPS5E7crbFenwRFuX5fV3rHFjajYf5P3FWlP+Qf7Wg==",
   "success": true,
-  "projectFilePath": "C:\\Loymark\\Subway\\Worker\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj",
+  "projectFilePath": "C:\\Loymark\\Subway_replicate\\Worker\\Worker\\WorkerSubway\\WorkerSubway\\WorkerSubway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joaquin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Joaquin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -59,6 +59,8 @@
     "C:\\Users\\Joaquin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Joaquin\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Joaquin\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joaquin\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\Joaquin\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\Joaquin\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Joaquin\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Joaquin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
@@ -85,10 +87,10 @@
     "C:\\Users\\Joaquin\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\Joaquin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Joaquin\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Joaquin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.21\\microsoft.netcore.app.runtime.win-x64.6.0.21.nupkg.sha512",
-    "C:\\Users\\Joaquin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.21\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.21.nupkg.sha512",
-    "C:\\Users\\Joaquin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.21\\microsoft.aspnetcore.app.runtime.win-x64.6.0.21.nupkg.sha512",
-    "C:\\Users\\Joaquin\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.21\\microsoft.netcore.app.crossgen2.win-x64.6.0.21.nupkg.sha512"
+    "C:\\Users\\Joaquin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.12\\microsoft.netcore.app.runtime.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\Joaquin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.12\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\Joaquin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.12\\microsoft.aspnetcore.app.runtime.win-x64.6.0.12.nupkg.sha512",
+    "C:\\Users\\Joaquin\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.12\\microsoft.netcore.app.crossgen2.win-x64.6.0.12.nupkg.sha512"
   ],
   "logs": []
 }

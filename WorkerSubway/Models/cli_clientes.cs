@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WorkerSubwayPruebas.Models
 {
     public class cli_clientes
-    {   
-        [Key]
+    {
         public decimal CLI_IDENTIFICACION { get; set; }
         public string? CLI_NOMBRE { get; set; }
         public string? CLI_CEDULA { get; set; }
@@ -19,7 +20,7 @@ namespace WorkerSubwayPruebas.Models
         public decimal CLI_PUNTOSDISPONIBLES { get; set; }
         public string? CREATEUSERID { get; set; }
 
-        public DateTime CREATEDATE { get; set; }
+        public DateTime? CREATEDATE { get; set; }
     }
 
 }
